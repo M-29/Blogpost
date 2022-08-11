@@ -1,0 +1,76 @@
+.main-container
+{
+    padding: 20px 42px;
+}
+.step-container {
+    margin-top: auto;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .step-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .step-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 44px;
+    border-radius: 50%;
+    background:  #1B4F72;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .step-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid  #1B4F72;
+    width: 200px;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+  }
+  .step-item1 {
+    position: relative;
+    display: flex;
+    margin-left: 180px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .step-item1 .step-counter1 {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 6px;
+    border:3px solid #1B4F72;
+  }
+  .step-item:first-child::before {
+    content: none;
+  }
+  .step-item:last-child::after {
+    content: none;
+  }
+  .headings{
+      display: flex;
+      justify-content: space-between;
+      width: 295px;
+      margin-top: -15px;
+  }
+  .headings .step-name1{
+      color: #1B4F72;
+      font-weight: 600;
+      font-size: 20px;
+  }

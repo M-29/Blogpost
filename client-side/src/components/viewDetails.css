@@ -1,0 +1,225 @@
+.viewparentdiv{
+    background-color: #F0F3F6 ;
+    min-height: 170vh;
+
+}
+.viewparentdiv img{
+    width: 35px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.viewparentdiv h3{
+    color: #B5B6B8 ;
+    margin-left: 25px;
+    margin-top: -1px;
+}
+.col2{
+    display: flex;
+    margin:30px;
+    width:95vw;
+    height: 150vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.viewchilddiv {
+    width: 50vw;
+    height: 50vw;
+}
+.imgdiv{
+    height: 50vh;
+    width: 50vh;
+}
+.imgdiv img{
+    padding: 10px;
+    width: 200%;
+    height: 282%;
+    margin-left: -70px;
+}
+.viewchilddiv .detailsdiv{
+    padding: 20px;
+    display: flex;
+    height: 20px;
+}
+.viewchilddiv .detailsdiv h3{
+    color: #1B4F72;
+    font-size: 30px;
+}
+.viewchilddiv .detailsdiv .savetag {
+    margin-left: 150px;
+}
+.viewchilddiv .detailsdiv .savetag img{
+    height: 30px;
+
+}
+.petdiv{
+    margin-left: 45px;
+    display: flex;
+}
+.petdiv p{
+    color:#434445;
+    font-weight: 600px;
+}
+.petdiv .date{
+    margin-left: 2px;
+    display: flex;
+}
+.petdiv .date .datehead{
+    display: flex;
+}
+.petdiv .date .datehead::after{
+    content: ":";
+}
+
+.phonenumber .mobileno::before{
+    content: "+91-";
+}
+.petdetailheading{
+    margin-left: 45px;
+    background: #E4E4E5;
+    height: 40px;
+    width: 72%;
+    border-radius: 3px;
+}
+.petdetailheading p{
+    padding: 8px;
+    color:  #434445;
+    margin-left: 13px;
+}
+.speciestype{
+    margin-left: 45px;
+    display: flex;
+}
+.speciestype p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.speciesname{
+    margin-left: 32%;
+}
+.breedtype{
+    margin-left: 45px;
+    display: flex;
+}
+.breedtype p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.breedname{
+    margin-left: 34%;
+}
+.petgender{
+    margin-left: 45px;
+    display: flex;
+}
+.petgender p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.petgendertype{
+    margin-left: 32%;
+}
+.petage{
+    margin-left: 45px;
+    display: flex;
+}
+.petage p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.petagevalue{
+    margin-left: 36%;
+}
+.descriptionheading{
+    margin-left: 45px;
+}
+.descriptionheading p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.description{
+    width: 82%;
+}
+.description p{
+    font-weight: 450;
+    color: #838487;
+}
+.contactdetailheading{
+    margin-left: 45px;
+    background: #E4E4E5;
+    height: 40px;
+    width: 72%;
+    border-radius: 3px;
+}
+.contactdetailheading p{
+    padding: 8px;
+    color:  #434445;
+    margin-left: 13px;
+}
+.ownerdetail{
+    margin-left: 45px;
+    display: flex;
+}
+.ownerdetail p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.ownername{
+    margin-left: 35%;
+}
+.owneraddress{
+    margin-left: 45px;
+    display: flex;
+}
+.owneraddress p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.address{
+    margin-left: 31%;
+    display: flex;
+}
+.address .city{
+    display: flex;
+}
+.state::before{
+    content: ",";
+}
+.ownerphonenumber{
+    margin-left: 45px;
+    display: flex;
+}
+.ownerphonenumber p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #434445;
+}
+.phonenumber{
+    margin-left: 20%;
+}
+.requestbtn{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.requestbtn button{
+    background-color: #1B4F72;
+    color: #fff;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+}
+.arrowdiv{
+    float: right;
+    margin-right: 310px;
+     margin-top: -70px; 
+
+}

@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    
+  }
+  
+  .container form{
+    
+    width:700px;
+    margin-left: -25px;
+   
+  }
+  
+   form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  
+   .row .col{
+    flex:1 1 250px;
+  }
+  
+  
+  
+    .col .inputBox{
+    margin:25px 25px;
+  }
+  
+   .col .inputBox span{
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: block;
+  }
+  
+   .col .inputBox input{
+    width: 100%;
+   background-color: #F0F3F6;
+   border-radius: 2px;
+   border:none;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+   .col .inputBox input:hover{
+    border:3px solid #1B4F72;
+  }
+  #state{
+    width: 110%;
+    background-color: #F0F3F6;
+    border-radius: 2px;
+    border:none;
+     padding:10px 15px;
+     font-size: 15px;
+     text-transform: none;
+  }
+  #state:hover{
+    border:3px solid #1B4F72;
+  }
+  #city{
+    width: 110%;
+    background-color: #F0F3F6;
+    border-radius: 2px;
+    border:none;
+     padding:10px 15px;
+     font-size: 15px;
+     text-transform: none;
+  }
+  #city:hover{
+    border:3px solid #1B4F72;
+  }
+  .saveProceed{
+      margin-left: 42px;
+  }
+  .saveproceed button{
+      border: none;
+      padding: 10px;
+      background-color: #1B4F72;
+      border-radius: 2px;
+      color: #fff;
+  }
+  .errmsg{
+    color: red;
+  }
+  .errmsg::before{
+    content: '*';
+  }
+  /* .disable{
+    color: darkgray;
+  } */
+  select option .disable{
+    color: darkgrey;
+  }
+  ::selection{
+    color: grey;
+  }
